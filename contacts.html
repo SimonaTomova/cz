@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description"
+        content="Официален уеб-сайт на учебен център 'Знание' - професионални курсове и обучения за развитие на лични и професионални умения.">
+    <meta name="keywords" content="учебен център, курсове, подготовка за изпити, езикови курсове, онлайн обучение">
+    <meta name="author" content="Симона Томова">
+    <meta name="robots" content="noindex">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="https://kit.fontawesome.com/2ce5c241d4.js" crossorigin="anonymous"></script>
+
+    <title>Учебен център "Знание" | За нас</title>
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">
+                <img src="images/logo1.png" alt="Лого на Учебен център Знание">
+                <span class="logo-text">Учебен център "Знание"</span>
+            </a>
+            <ul class="menu">
+                <li><a href="index.html" class="active"><i class="fas fa-home"></i> Начало</a></li>
+                <li><a href="about.html"><i class="fas fa-users"></i> За нас</a></li>
+                <li><a href="courses.html"><i class="fas fa-graduation-cap"></i> Курсове</a></li>
+                <li><a href="teachers.html"><i class="fas fa-chalkboard-teacher"></i> Учители</a></li>
+                <li><a href="news.html"><i class="fas fa-newspaper"></i> Новини</a></li>
+                <li><a href="contacts.html"><i class="fas fa-phone"></i> Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!--Contact Info-->
+        <div class="contact-section">
+            <h2>Свържете се с нас</h2>
+            </hr>
+        </div>
+        <div class="contact-info">
+            <img src="images/contact-us.jpg" alt="Contact Us">
+            <div class="contact-details">
+                <strong>Адрес:</strong> Варна, ул. "Роза" 117<br>
+                <strong>Email:</strong> office@znaniecenter.com</a><br>
+                <strong>Телефон:</strong> +359 123 456789<br>
+            </div>
+        </div>
+
+        <!--Form Section-->
+        <div class="form-section">
+            <h2>Направете запитване</h2>
+            <form action="/submit-form" method="POST">
+                <label for="service">Изберете услуга:</label>
+                <select id="service" name="service">
+                    <option value="">---</option>
+                    <option value="Езикови курсове">Езикови курсове</option>
+                    <option value="Подготвителни курсове">Подготвителни курсове</option>
+                    <option value="Индивидуални уроци">Индивидуални уроци</option>
+                </select>
+                <label for="contact-person">Лице за контакт:</label>
+                <input type="text" id="contact-person" name="contact_person" required>
+                <label for="phone">Телефон:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="query">Запитване:</label>
+                <textarea id="query" name="query"></textarea>
+                <button type="submit">Изпрати</button>
+            </form>
+        </div>
+        </div>
+    </main>
+
+    <!--Footer-->
+    <footer>
+        <section>
+            <h3>Бързи връзки</h3>
+            <ul>
+                <li><a href="index.html"><i class="fa fa-home"></i>Начало</a></li>
+                <li><a href="about.html"><i class="fa fa-info-circle"></i>За нас</a></li>
+                <li><a href="courses.html"><i class="fa fa-graduation-cap"></i>Обучения</a></li>
+                <li><a href="contacts.html"><i class="fa fa-phone"></i>Контакти</a></li>
+            </ul>
+        </section>
+        <section>
+            <h3>Контакт с нас</h3>
+            <address>
+                <p><i class="fas fa-map-marker-alt"></i> Варна, ул. "Роза" 117</p>
+                <p><i class="fas fa-envelope"></i> office@znaniecenter.com</p>
+                <p><i class="fas fa-phone-alt"></i> +359 123 456789</p>
+            </address>
+        </section>
+        <section>
+            <h3>Последвайте ни</h3>
+            <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/" class="fa fa-twitter"></a>
+            <p>© Учебен Център Знание, 2024</p>
+        </section>
+    </footer>
+</body>
+
+</html>
