@@ -660,14 +660,13 @@ footer p {
 }
 
 
-/* Responsive Grid Layout for Courses */
 .course-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 20px;
 }
 
-/* Parallax Section */
+/* Parallax */
 .parallax-courses {
     position: relative;
     background: linear-gradient(135deg, #ffffff, #2196f3); /* White to Blue Gradient */
@@ -746,7 +745,6 @@ footer p {
     padding: var(--padding-base);
 }
 
-/* Teacher card */
 .teacher {
     background: var(--container-background-white);
     border: 1px solid #ddd;
@@ -954,7 +952,7 @@ footer p {
     text-decoration: underline;
 }
 
-/* Form Section */
+/* Form */
 .form-section {
     background-color: var(--container-background-white);
     padding: 3rem;
@@ -1022,7 +1020,6 @@ footer p {
     background-color: #45a049;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .contact-info {
         flex-direction: column;
