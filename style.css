@@ -335,7 +335,7 @@ footer ul li {
 footer ul li a {
     color: white;
     text-decoration: none;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     transition: color 0.3s ease;
 }
 
@@ -355,7 +355,7 @@ footer a.fa:hover {
 
 footer p {
     margin-top: 0.3rem;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     text-align: center;
     flex-basis: 100%;
 }
